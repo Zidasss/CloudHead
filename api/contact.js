@@ -20,7 +20,7 @@ export default async function handler(req, res) {
   try {
     await resend.emails.send({
       from: 'CloudHead Site <onboarding@resend.dev>', // troque pelo seu domínio verificado depois
-      to: 'contato@cloudhead.com.br',                 // seu e-mail de destino
+      to: 'gustavozavadniakk@gmail.com',                 // seu e-mail de destino
       replyTo: email,
       subject: `Nova mensagem pelo site — ${name}`,
       html: `
