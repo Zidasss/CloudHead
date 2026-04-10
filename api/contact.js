@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { Analytics } from "@vercel/analytics/next"
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
